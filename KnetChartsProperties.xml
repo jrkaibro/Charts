@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="KnetCharts">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Width</Id>
+          <Name>Width</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+        </Prop>
+        <Prop>
+          <Id>Height</Id>
+          <Name>Height</Name>
+          <Type>Text</Type>
+          <Default>100</Default>
+          <Metadata />
+        </Prop>
+        <Group>
+          <Name>Data Bindings</Name>
+          <Childs>
+            <Prop>
+              <Id>Pie</Id>
+              <Name>Pie</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetPie</Value>
+                <Value name="FlagGetValueMethod">GetPie</Value>
+                <Value name="FlagDataTypeFilter">Pie</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Polar</Id>
+              <Name>Polar</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetPolar</Value>
+                <Value name="FlagGetValueMethod">GetPolar</Value>
+                <Value name="FlagDataTypeFilter">Polar</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Line</Id>
+              <Name>Line</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetLine</Value>
+                <Value name="FlagGetValueMethod">GetLine</Value>
+                <Value name="FlagDataTypeFilter">Line</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Radar</Id>
+              <Name>Radar</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetRadar</Value>
+                <Value name="FlagGetValueMethod">GetRadar</Value>
+                <Value name="FlagDataTypeFilter">Radar</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Doughnut</Id>
+              <Name>Doughnut</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetDoughnut</Value>
+                <Value name="FlagGetValueMethod">GetDoughnut</Value>
+                <Value name="FlagDataTypeFilter">Doughnut</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Funnel</Id>
+              <Name>Funnel</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetFunnel</Value>
+                <Value name="FlagGetValueMethod">GetFunnel</Value>
+                <Value name="FlagDataTypeFilter">Funnel</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Bar</Id>
+              <Name>Bar</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetBar</Value>
+                <Value name="FlagGetValueMethod">GetBar</Value>
+                <Value name="FlagDataTypeFilter">Bar</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>HorizontalBar</Id>
+              <Name>HorizontalBar</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetHorizontalBar</Value>
+                <Value name="FlagGetValueMethod">GetHorizontalBar</Value>
+                <Value name="FlagDataTypeFilter">HorizontalBar</Value>
+              </Metadata>
+            </Prop>
+            <Prop>
+              <Id>Charts</Id>
+              <Name>Charts</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetCharts</Value>
+                <Value name="FlagGetValueMethod">GetCharts</Value>
+                <Value name="FlagDataTypeFilter">Charts</Value>
+              </Metadata>
+            </Prop>
+          </Childs>
+        </Group>
+        <Group>
+          <Name>Select</Name>
+          <Childs>
+            <Prop>
+              <Id>SelectedItem</Id>
+              <Name>SelectedItem</Name>
+              <Type>Custom</Type>
+              <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+              <Metadata>
+                <Value name="FlagSetValueMethod">SetSelectedItem</Value>
+                <Value name="FlagGetValueMethod">GetSelectedItem</Value>
+                <Value name="FlagDataTypeFilter">SelectedItem</Value>
+              </Metadata>
+            </Prop>
+          </Childs>
+        </Group>
+      </Childs>
+    </Group>
+  </Object>
+</Content>

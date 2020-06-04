@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>3.0</Version>
+  <DataSourceAllowed>None</DataSourceAllowed>
+  <CustomDataSources />
+  <AutoGrowSupported>false</AutoGrowSupported>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <SupportFiles />
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
+  <RuntimeRender>KnetChartsRender.js</RuntimeRender>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>true</ResizeSupported>
+  <ObjClass>KnetCharts</ObjClass>
+  <Description>KnetCharts</Description>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>KnetCharts</Name>
+  <Platforms />
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles />
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
+  <Constructor>
+    <Parameters />
+    <Name>KnetCharts</Name>
+  </Constructor>
+  <PropertiesDefinition>KnetChartsProperties.xml</PropertiesDefinition>
+  <DesignRender>KnetChartsRender.xsl</DesignRender>
+  <ControlType />
+      <Categories>
+    <Category>Knet App</Category>
+  </Categories>
+  <Events>
+    <Event>OnClick</Event>
+  </Events>
+  <Methods>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>SDT_Bar</Parameter>
+      </Parameters>
+      <Signature>RefreshBar(SDT_Bar:SDT_Bar)</Signature>
+      <Name>RefreshBar</Name>
+      <Namespace />
+      <FullName>RefreshBar</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>SDT_Area</Parameter>
+      </Parameters>
+      <Signature>RefreshArea(SDT_Area:SDT_Area)</Signature>
+      <Name>RefreshArea</Name>
+      <Namespace />
+      <FullName>RefreshArea</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>SDT_Donut</Parameter>
+      </Parameters>
+      <Signature>RefreshDonut(SDT_Donut:SDT_Donut)</Signature>
+      <Name>RefreshDonut</Name>
+      <Namespace />
+      <FullName>RefreshDonut</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>SDT_Barh</Parameter>
+      </Parameters>
+      <Signature>RefreshBarh(SDT_Barh:SDT_Barh)</Signature>
+      <Name>RefreshBarh</Name>
+      <Namespace />
+      <FullName>RefreshBarh</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>SDT_Funnel</Parameter>
+      </Parameters>
+      <Signature>RefreshFunnel(SDT_Funnel:SDT_Funnel)</Signature>
+      <Name>RefreshFunnel</Name>
+      <Namespace />
+      <FullName>RefreshFunnel</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>SDT_Bar</Parameter>
+      </Parameters>
+      <Signature>RefreshBar(SDT_Bar:SDT_Bar)</Signature>
+      <Name>RefreshBar</Name>
+      <Namespace />
+      <FullName>RefreshBar</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>SDT_HorizontalBar</Parameter>
+      </Parameters>
+      <Signature>RefreshHorizontalBar(SDT_HorizontalBar:SDT_HorizontalBar)</Signature>
+      <Name>RefreshHorizontalBar</Name>
+      <Namespace />
+      <FullName>RefreshHorizontalBar</FullName>
+    </Method>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>Charts</Parameter>
+      </Parameters>
+      <Signature>RefreshCharts(Charts:Charts)</Signature>
+      <Name>Charts</Name>
+      <Namespace />
+      <FullName>Charts</FullName>
+    </Method>
+  </Methods>
+  <Actions />
+  <IsPublic>true</IsPublic>
+  <Android_IsScrollable>false</Android_IsScrollable>
+</ControlDefinition>
